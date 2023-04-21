@@ -126,10 +126,8 @@ public class Quiz extends KeyAdapter implements ActionListener {
         ReadyButton.getReady().addActionListener(this);
         Comboboxes.CHAPTER.addActionListener(this);
         Comboboxes.CHAPTER.addKeyListener(this);
-        
         new Final();
-        Final.getWin_final().setVisible(false);
-        
+        Final.getWin_final().setVisible(false);     
         new EditInterface();
         EditInterface.getFrame().setVisible(false);
         new Journal();
